@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: user-service
+  cloud:
+    config:
+      name: user
+      uri: http://localhost:8762

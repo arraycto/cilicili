@@ -1,0 +1,9 @@
+server:
+  port: 8884
+spring:
+  application:
+    name: api-gateway
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8881/eureka/
